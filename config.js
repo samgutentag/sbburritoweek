@@ -7,20 +7,20 @@
 
 const THEME = {
   // Event identity
-  eventName: "SB Food Week 2026",
+  eventName: "SB Burrito Week",
   eventDates: "TBD",
-  emoji: "🍽️",
+  emoji: "🌯",
 
   // OG image text (two lines for the social preview image)
   ogLine1: "Santa Barbara",
-  ogLine2: "Food Week 2026",
+  ogLine2: "Burrito Week",
 
   // Labels (what to call the featured item)
-  itemLabel: "item",
-  itemLabelPlural: "items",
+  itemLabel: "burrito",
+  itemLabelPlural: "burritos",
 
   // Site URL (used for OG meta tags, embed snippets, print page)
-  siteUrl: "https://YOUR-DOMAIN.com",
+  siteUrl: "https://sbburritoweekmap.com",
 
   // Description (used for meta tags)
   description:
@@ -43,10 +43,10 @@ const THEME = {
   ],
 
   // LocalStorage namespace (unique per event to avoid collisions)
-  storageKey: "sbfoodweek-checklist",
+  storageKey: "sbburritoweek-checklist",
 
   // Print page
-  printTitle: "SB Food Week 2026 — My Picks",
+  printTitle: "SB Burrito Week — My Picks",
 
   // Event timezone — phase changes (pre/during/post) happen on this clock,
   // not the viewer's. IANA name, e.g. "America/Los_Angeles".
@@ -68,7 +68,7 @@ const THEME = {
   mapZoom: 13,
 
   // GitHub repo URL (used in About modal and footer)
-  githubRepoUrl: "https://github.com/YOUR_USERNAME/YOUR_REPO",
+  githubRepoUrl: "https://github.com/samgutentag/sbburritoweek",
 
   // Data launch date — before this date, data.js (skeleton) loads.
   // On or after this date, data-<year>.js (full menu details) loads.

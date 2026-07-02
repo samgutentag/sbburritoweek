@@ -1,4 +1,4 @@
-name = "sbfoodweek-track"
+name = "sbburritoweek-track"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
@@ -8,7 +8,7 @@ ACCOUNT_ID = "YOUR_CLOUDFLARE_ACCOUNT_ID"
 # Analytics Engine dataset queried by the Worker's SQL. Must match the
 # dataset in [[analytics_engine_datasets]] below. Per-event value —
 # apply-theme.py does not rewrite this file's dataset; set both here.
-DATASET_NAME = "sbfoodweek"
+DATASET_NAME = "sbburritoweek"
 
 # Event window (ISO dates, written by apply-theme.py from config.js).
 # POST writes self-disable 6 days after EVENT_END — wind-down never edits
@@ -31,4 +31,4 @@ RUM_SITE_TAG = "YOUR_RUM_SITE_TAG"
 
 [[analytics_engine_datasets]]
 binding = "TRACKER"
-dataset = "sbfoodweek"
+dataset = "sbburritoweek"
